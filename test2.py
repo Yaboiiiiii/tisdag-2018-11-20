@@ -1,6 +1,12 @@
-letter = "hejsan"
+check = False
 
-i = 0
-while i < len(letter):
-    print(letter[i])
-    i = i + 1
+while check != True:
+    answer = input("Skriv ett kolon: ")
+    if answer == ":":
+        check = True
+        print("Grattis du gissade rätt!")
+    elif answer == "Nä du är fan sämst":
+        print("no u")
+    else:
+        print("Du är fan sämst!")
+    
